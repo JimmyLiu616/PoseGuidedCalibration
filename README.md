@@ -1,2 +1,2 @@
 # PoseGuidedCalibration
-Human Pose-Guided Joint Optimization for Camera Auto-Calibration System with Unknown Intrinsics (ICCE 2025, Oral)
+Human Pose-Guided Joint Optimization for Camera Auto-Calibration System with Unknown Intrinsics (ICCE 2025, IEEE Embedded Letters, under review)
