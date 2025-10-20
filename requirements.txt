@@ -1,0 +1,30 @@
+# 基本系統與數據處理
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+
+# 影像與電腦視覺
+opencv-python>=4.8.0
+vidgear>=0.3.2
+
+# 深度學習框架
+torch>=2.2.0
+torchvision>=0.17.0
+
+# SuperPoint / SuperGlue 模型依賴
+# 若有本地 models/SuperGlue/ 資料夾，可忽略這些外部依賴
+# 否則請確保包含網路或Git安裝來源
+# git+https://github.com/magicleap/SuperGluePretrainedNetwork.git
+
+# HigherHRNet (人體姿態估計)
+# 若已 clone simple-HigherHRNet 專案，無需安裝額外套件
+# 但其內部通常還需這些依賴：
+scipy>=1.10.0
+yacs>=0.1.8
+tqdm>=4.65.0
+Pillow>=9.0.0
+
+# 額外工具
+# (若需要視覺化或debug)
+matplotlib-inline>=0.1.6
